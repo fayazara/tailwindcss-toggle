@@ -31,13 +31,13 @@ export default {
         {
           label: "Backups",
           icon: "fa-wifi",
-          color: "yellow",
+          color: "indigo",
           value: true,
         },
         {
           label: "Developer Mode",
           icon: "fa-terminal",
-          color: "red",
+          color: "gray",
           value: false,
         },
         {

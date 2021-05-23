@@ -1,7 +1,6 @@
 module.exports = {
-  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  mode: "jit",
   theme: {
+    moda: "jit",
     fontFamily: {
       sans: [
         "Avenir",
@@ -20,5 +19,16 @@ module.exports = {
         '"Noto Color Emoji"'
       ]
     }
+  },
+  variants: {},
+  purge: {
+    enabled: process.env.NODE_ENV === "production",
+    content: [
+      "components/**/*.vue",
+      "layouts/**/*.vue",
+      "pages/**/*.vue",
+      "plugins/**/*.js",
+      "nuxt.config.js"
+    ]
   }
 };
