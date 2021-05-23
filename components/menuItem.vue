@@ -3,9 +3,9 @@
     <div class="flex items center space-x-2">
       <div
         class="rounded flex-shrink-0 flex items-center justify-center text-white h-6 w-6"
-        :class="`bg-${options.color}-500`"
+        :class="options.color"
       >
-        <i :class="`fas ${options.icon}`"></i>
+        <i :class="`fa-xs ${options.icon}`"></i>
       </div>
       <p>{{ options.label }}</p>
     </div>

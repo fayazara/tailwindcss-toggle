@@ -1,6 +1,6 @@
 module.exports = {
   theme: {
-    moda: "jit",
+    mode: "jit",
     fontFamily: {
       sans: [
         "Avenir",
